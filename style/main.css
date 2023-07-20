@@ -1,0 +1,259 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.images_news{
+    position: absolute;      
+}
+
+.latest_news{
+    float:center;
+    width:100%;
+	margin:.5em 10px .5em 0;
+	overflow:hidden;
+	border:1px solid #fff;
+    color: #fff;
+     
+}
+.latest_news img{
+    margin:-25% 0% -55% 0%;
+    width:100%;
+    vertical-align:middle;
+}
+
+
+.big
+{
+    font-size: 2rem;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom:15px ;
+
+}
+
+.mini
+{
+  font-size:10px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom:15px;
+
+}
+.news__title {
+    font-size: 2rem;
+    margin-right: 7px;
+    font-family:sans-serif;
+    text-align: left;
+    padding-bottom:15px ;
+   
+  } 
+
+.content
+{
+   vertical-align: top;
+    width:500px;
+    font-size: 16px;
+    font-family:sans-serif;
+}
+.opisnie
+{
+    color:rgb(182, 34, 93) ;
+    font-size: 25px;
+}
+.photo img
+{
+    width:85%;
+    padding-left:50px;
+}
+.date{
+border-radius: 30px;
+width: 60px;
+text-align: center;
+border:1px solid rgb(236,242,245);
+background-color: rgb(236,242,245); 
+color: #00000042;
+padding: 5px;
+font-size: 12px;
+}
+
+.text_1{
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    bottom: 120px;
+    left: 120px;
+    font-weight: 700;
+}
+.footer
+{
+padding-bottom: 10px;
+border-top:1px solid black;
+}
+.text_2{
+    font-size: 18px;
+    position: relative;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    left: 120px;
+    bottom: 120px;
+}
+.news_page-link  {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 2px 0 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid rgb(182, 34, 93) ;
+    color: rgb(182, 34, 93) ;
+    text-decoration: none;
+    width: 30px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.news_page-link:hover{
+    background-color: rgb(182, 34, 93) ;
+    color: #fff;
+    transition: 0.2s;
+}
+.news_page-strelka  {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 2px 0 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid rgb(182, 34, 93) ;
+    color: rgb(182, 34, 93) ;
+    text-decoration: none;
+    width: 60px;
+    padding: 5px;
+    display: inline-block;
+}
+.page-link{
+    text-align: right;
+    padding: 10px;
+}
+.news_page-strelka:hover{
+    background-color: rgb(182, 34, 93) ;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.footer_foot{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   
+}
+.announce{
+    font-size:14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+
+ .title{
+    font-size: 20px;
+    font-weight: 700;
+   
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+ }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    width: 100%;
+    max-width: 1200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    -webkit-column-gap: 80px;
+       -moz-column-gap: 80px;
+            column-gap: 80px;
+    margin: 0 auto;
+  }
+
+div .card{
+    width: 470px;
+    min-height: 300px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 35px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    position: relative;
+    
+  }
+
+.card a{
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.card button{
+    width: 150px;
+    border-radius: 30px;
+    color: rgb(182, 34, 93);
+    border: 1px solid rgb(182, 34, 93);
+    background: #fff;
+    padding: 15px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+.card a:hover{
+
+    color:  rgb(182, 34, 93);
+    transition: 0.2s;
+}
+
+.card :hover button{
+
+    background-color: rgb(182, 34, 93);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.pud{
+    padding-top: 100px;
+}
+.but a{
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(182, 34, 93);
+    border: 1px solid rgb(182, 34, 93);
+    background: #fff;
+    padding: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.but a:hover{
+    background-color: rgb(182, 34, 93);
+    color: #fff;
+    transition: 0.2s;
+} 
+
+.card button:hover{
+    background-color: rgb(182, 34, 93);
+    color: #fff;
+    transition: 0.2s;
+} 
+
